@@ -5,3 +5,147 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .slack-logo {
+    width: 20vh;
+    padding: 1.25rem 0 1rem 3.75rem;
+
+    float: left;
+    display: block;
+  }
+
+  nav ul {
+    visibility: hidden;
+  }
+
+  hr {
+    padding-top: 0;
+    margin-top: 0;
+    width: 100%;
+
+    overflow: hidden;
+    position: fixed;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  header p {
+    font-size: 1.25rem;
+    width: 40rem;
+  }
+
+  .padding {
+    padding-left: 3.75rem;
+  }
+
+  .home-img {
+    order: 2;
+    width: 95vw;
+  }
+
+  header h1 {
+    font-size: 4.5rem;
+    width: 40rem;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 38rem;
+    padding: 1rem 3.75rem 1rem 3.75rem;
+  }
+
+  button,
+  #email {
+    padding: 1.25rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+  }
+
+  #email {
+    border-color: rgb(231, 231, 231);
+  }
+
+  .btn-purple {
+    background-color: rgb(53, 35, 153);
+    color: white;
+  }
+
+  .sign-in {
+    padding: 0 16rem 1.5rem 16rem;
+  }
+
+  main {
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section1,
+  .try-it {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main h2 {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+  }
+
+  .discrib {
+    font-size: 1.5rem;
+    width: 80%;
+    margin-top: 0;
+    padding-bottom: 1rem;
+  }
+
+  .discoverbtn {
+    width: 80%;
+    color: rgb(53, 35, 153);
+    border-color: rgb(53, 35, 153);
+  }
+
+  .section1 img {
+    width: 40vw;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px rgb(196, 196, 196) solid;
+  }
+
+  .try-it-1 {
+    padding-top: 2rem;
+    font-size: 1.75rem;
+    margin-bottom: 0;
+  }
+
+  .try-it-2 {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  .footer-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
